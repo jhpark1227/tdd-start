@@ -1,5 +1,8 @@
 package junhyeok.tdd.ch07.register;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class UserRegister {
     private WeakPasswordChecker passwordChecker;
     private MemoryUserRepository userRepository;
